@@ -1,15 +1,14 @@
 
-.sport-wander{
+.header-texts h6 {
 
-    padding-left: 20px;
-   
-    /* padding-top: 15px; */
-
-   
+    color: black !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 220px;
 }
 
-.sport-wander img{
-    
-    padding-bottom: 30px;
-    width: 1500px;
+.sports-header img{
+
+    margin-left: 50px;
 }
