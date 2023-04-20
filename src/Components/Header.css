@@ -1,13 +1,15 @@
 
 .sport-wander{
 
-    padding-left: 50px;
-    padding-top: 15px;
+    padding-left: 20px;
+   
+    /* padding-top: 15px; */
 
    
 }
 
 .sport-wander img{
-
+    
+    padding-bottom: 30px;
     width: 1500px;
 }
