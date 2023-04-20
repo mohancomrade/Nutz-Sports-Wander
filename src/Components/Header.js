@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className='container-fluid'>
     <div className='sports-header'>
-       <Navbar bg="light" variant="light">
+       <Navbar bg="white" variant="white">
             <img src={sportswander}class="img-fluid" alt=''/>
         <Container>
          <div className='header-texts'>
