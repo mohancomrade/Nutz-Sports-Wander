@@ -1,5 +1,5 @@
 
-.header-texts h6 {
+ .header-texts h6 {
 
     color: black !important;
     font-weight: bold;
@@ -11,4 +11,29 @@
 .sports-header img{
 
     margin-left: 50px;
-}
+} 
+
+
+@media (max-width: 768px) {
+    
+    .header-texts h6{
+
+        margin-left: -220px;
+        font-size: 6px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        /* margin-right: -70px; */
+
+    }
+
+    .sports-header img{
+
+        width: 50px;
+        margin-left: -1px;
+        margin-bottom: 5px;
+    }
+
+  }
+  

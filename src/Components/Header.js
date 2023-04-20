@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import sportswander from "../images/SW 1.png"
+import sportswander from "../images/SW 1.png";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
