@@ -204,15 +204,15 @@
 .footers-five h5{
 
     
-    margin-left: -227px;
+    margin-left: -227px !important;
     font-size: 14px;
-    margin-top: -95px;
+    margin-top: -95px !important;
 }
 
 .footers-five li {
 
-    margin-left: -227px;
-    font-size: 13px;
+    margin-left: -227px !important;
+    font-size: 13px !important;
 }
 
 }
