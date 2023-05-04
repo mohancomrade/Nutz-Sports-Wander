@@ -1,87 +1,111 @@
 import React from 'react';
 import "./Footer.css";
-import layer from "../images/Layer 1.png";
-import group from "../images/Group 297.png";
-import group1 from "../images/Group 298.png";
-import facebook from "../images/_x30_1._Facebook.png";
-import instagram from "../images/g176.png";
-import twitter from "../images/Vector (1).png";
-import linkedin from "../images/icon.png"
+
+
 
 function Footer() {
   return (
     <div className='header-footer'>
-      <section class="footers bg-light pt-5 pb-3">
-   <div class="container pt-5">
-       <div class="row">
-           <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
-    		    <div class="footers-logo">
-					<div className='footer-image'>
-    		        <img src={layer} alt="Logo" style={{width:"340px"}}/>
-					</div>
-                    <p className='copy-right'>Copyright © 2023</p>
-                    <diV className="install-head">
-                    <p className='install'>Install now</p>
-                    <img src={group} className='grp'/>
-                    <img src={group1} className='grp1'/>
-                    </diV>
-                    <div className='follow-head'>
-                        <p className='follow'> Follow us on</p>
-                    <img src={facebook} className='face-book'/>
-                    <img src={instagram} className='insta'/>
-                    <img src={twitter} className='twitter'/>
-                    <img src={linkedin} className='linkedin'/>
+    
+    {/* <!------7.footer-----> */}
+    <section class="footer">
+    <div class="footer-banner">
+        <div class="container">
+            <div class="row">
+                  <div class="col-lg-4 col-12 ">
+                     <div class="copyright-wrapper"> 
+                        <div class="copyright">
+                            <a class="" href="index.html">
+                                <img src="./assets/images/logo.svg" class="footer-logo"/>
+                            </a>  
+                            <span><p>Copyright@2023</p></span> 
+                            <div class="footer-icons">
+                                <div class="row">                          
+                                    <div class="col-lg-6 col-6">
+                                        <p>install now</p>
+                                        <div class="d-flex gap-3 align-items-center justify-content-start">
+                                            <a class="" href=""><i class="icon icon-app"></i></a>
+                                            <a class="" href=""><i class="icon icon-apple"></i></a>                                 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-6">
+                                        <p>follow us on</p>
+                                        <div class="d-flex gap-3 align-items-center justify-content-start ">
+                                            <a class="" href=""><i class="icon icon-fb"></i></a>
+                                            <a class="" href=""><i class="icon icon-ig"></i></a>
+                                            <a class="" href=""><i class="icon icon-ln"></i></a>
+                                            <a class="" href=""><i class="icon icon-tw"></i></a>
+                                        </div>
+                                    </div>                      
+                                </div>     
+                            </div>
+                        </div>
                     </div>
-    		    </div>
-    		    {/* <div class="footers-info mt-3">
-    		        <p>Cras sociis natoque penatibus et magnis Lorem Ipsum tells about the compmany right now the best.</p>
-    		    </div> */}
-    		  
-			<div className="vl"></div>
-    		</div>
-
-        
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
-          
-    		    <h5><span>Our Products </span> </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">NutzCommerz</a></li>
-    			 <li><a href="contact.html">Meshit</a></li>
-    			 <li><a href="about.html">c-lk.in</a></li>
-    			</ul>
-    		</div>
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
-    		    <h5>Company </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">About</a></li>
-    			 <li><a href="contact.html">FAQs</a></li>
-    			 <li><a href="about.html">Contact Support</a></li>
-    			</ul>
-    		</div>
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
-    		    <h5>Learn more </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">Pricing</a></li>
-    			 <li><a href="contact.html">Terms & Conditions</a></li>
-    			 <li><a href="about.html">Developer API</a></li>
-    			
-    			</ul>
-    		</div>
-    	   <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
-    		    <h5>Policies </h5>
-    		    <ul class="list-unstyled">
-    			 <li><a href="maintenance.html">Delivery Policy</a></li>
-    			 <li><a href="about.html">Cancellation Policy</a></li>
-    			 <li><a href="about.html">Privacy Policy</a></li>
-    			</ul>
-                
-    		</div>
-            
-       </div>
-      
-   </div>
-   
-</section>
+                </div>      
+                <div class="col-lg-8 col-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <h4>our products</h4>
+                            <ul>
+                                <li>
+                                    <a class="" href="">nut commerz</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">meshkit</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">c-lk.in</a>
+                                </li>
+                            </ul>
+                        </div> 
+                        <div class="col-lg-3 col-6">
+                            <h4>company</h4>
+                            <ul>
+                                <li>
+                                    <a class="" href="">about</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">faq</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">contact-support</a>
+                                </li>
+                            </ul>
+                        </div> 
+                        <div class="col-lg-3 col-6">
+                            <h4>learn more</h4>
+                            <ul>
+                                <li>
+                                    <a class="" href="">pricing</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">terms &amp; conditions</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">developer API</a>
+                                </li>
+                            </ul>
+                        </div> 
+                        <div class="col-lg-3 col-6">
+                            <h4>policies</h4>
+                            <ul>
+                                <li>
+                                    <a class="" href="">delivery poloicy</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">cancellation policy</a>
+                                </li>
+                                <li>
+                                    <a class="" href="">privacy policy</a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>                         
+                </div>                           
+            </div>
+        </div>
+    </div>  
+    </section>
 </div>
   )
 }

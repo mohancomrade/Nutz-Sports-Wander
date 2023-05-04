@@ -1,68 +1,78 @@
- 
- .header-texts h6 {
+.sports-header img{
 
+    width: 290px;
+    height: 60px;
+}
+
+.header-font{
+
+    font-weight: bold !important;
     color: black !important;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding-left: 220px;
-    margin-top: 10px;
     margin-bottom: 10px;
-
- } 
+    margin-left: 140px;
    
-    
+    font-size: 20px !important;
 
+}
 
-.sports-header img {
-    margin-left: 50px;
-    width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.header-font1,.header-font2{
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 20px !important;
+    margin-left: 10px;
+}
    
-  }
-  
+.btn-primary{
 
-.sports-header{
+    margin-left: 140px;
+ 
 
-  margin-top: 10px;  
-     margin-top: -10px; 
-     background-color: white; 
-    position: fixed; 
-     top: 10px; 
-    left: 0; 
-    z-index: 999;
-    width: 100%;
-    height: 10vh;
-   
+    width: 90px;
+    height: 40px;
+}
+
+.btn-success{
+
+    width: 90px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.header-font:not(:last-child),
+.header-font1:not(:last-child),
+.header-font2:not(:last-child) {
+  margin-right: 2.5rem;
 }
 
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .sports-header img {
+      width: 200px;
+      height: 40px;
+    }
     
-    .header-texts h6{
-
-        margin-left: -220px;
-        font-size: 6px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        font-weight: bold;
-        /* margin-right: -70px; */
-
+    .header-font {
+      margin-right:0;
+      font-size: 15px !important;
     }
-
-    .sports-header img{
-
-        width: 50px;
-        margin-left: -1px;
-        margin-bottom: 5px;
-    }
-
-    .sports-header {
-
-        margin-top: -14px;
-    }
-
-  }
   
+    .header-font1{
+      font-size: 15px !important;
+      margin-left: 138px;
+    }
+    .header-font2{
+        font-size: 15px !important;
+        margin-left: 70px;
+      }
+  
+    .btn-primary {
+    
+      visibility: hidden;
+    }
+    
+    .btn-success {
+   
+      visibility: hidden;
+      /* margin-top: 10px; */
+    }
+  }
