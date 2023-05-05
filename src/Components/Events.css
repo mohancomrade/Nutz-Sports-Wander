@@ -1,5 +1,207 @@
+.events-header{
+
+    background-color:#204978;
+    width: 100%;
+    height: 190vh;
+   
+} 
+.banner-content{
+
+    margin-top: 100px !important;
+}
+
+.banner-content p{
+
+    font-size: 40px !important;
+    color: #FFFFFF !important;
+}
+
+.banner-heading h1{
+
+    font-size: 54px !important ;
+    color: #FFFFFF !important;
+    padding: 5px 5px;
+  
+}
+
+.banner-heading span{
+
+    font-size: 26px;
+    padding-right: 20px !important;
+  
+}
+
+.playstore{
+
+    width: 236px !important;
+    height: 70px !important;
+}
+
+.playstore1{
+
+    width: 236px !important;
+    height: 70px !important;
+}
+
+.phone{
+
+    width: 676px;
+    height: 712px;
+    margin-top: 100px !important;
+}
+
+.card {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 220px !important;
+    height: 200px !important;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .card1{
+    width: 80px !important;
+    margin-top: 20px;
+  }
+  .card2{
+
+    width: 75px !important;
+  }
+
+  .card3{
+
+    width: 75px !important;
+  }
+
+  .card4{
+
+    width: 60px !important;
+  }
+  .card h3{
+
+    font-size: 53px;
+    font-size: 47px;
+    font-weight: bold !important;
+  }
+  
+  .card h4{
+
+    font-size: 30px !important;
+    /* font-weight: bold !important; */
+  }
+
+  .insight h3{
+
+    color: #FFFFFF;
+    font-size: 44px !important;
+  }
+
+.insight1 {
+
+ background-color: #FFFFFF;
+ width: 55px !important;
+ height: 55px !important;
+ border-radius: 40px;
+ margin-left: 200px !important;
+
+    
+  }
+
+  .insight1 img {
+
+    width: 30px !important;
+  }
+
+  .book{
+
+    margin-left: -70px !important ;
+    width: 100px;
+  }
+
+  .star {
+
+    width: 30px;
+    margin-left: -10px;
+    /* margin-top: 10px; */
+  }
 
 
 
+  /* Media Query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    .events-header{
+      background-color:#204978;
+    } 
+    .banner-content{
+      margin-top: 40px !important;
+    }
+    .banner-content p{
+      font-size: 21px !important;
+    }
+    .book{
 
-
+     /* margin-bottom: 10px !important; */
+    }
+    .banner-heading h1{
+      font-size: 30px !important ;
+      padding: 5px 0;
+    }
+    .banner-heading span{
+      font-size: 25px;
+      padding-right: 10px !important;
+    }
+    .playstore, .playstore1{
+      width: 140px !important;
+      height: 50px !important;
+    }
+    .phone{
+      width: 100%;
+      height: auto;
+      margin-top: 40px !important;
+    }
+    .card {
+      width: 130px !important;
+      height: 130px !important;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    .card1{
+      width: 30px !important;
+      margin-top: 10px;
+    }
+    .card2, .card3{
+      width: 25px !important;
+    }
+    .card4{
+      width: 20px !important;
+    }
+    .card h3{
+      font-size: 28px;
+    }
+    .card h4{
+      font-size: 18px !important;
+    }
+    .insight h3{
+      font-size: 28px !important;
+    }
+    .insight1{
+      width: 40px !important;
+      height: 40px !important;
+      border-radius: 30px;
+      margin-left: 110px !important;
+      margin-top: 50px;
+    }
+    .insight1 img{
+      width: 20px !important;
+    }
+    .book{
+      margin-left: -30px !important ;
+      width: 50px;
+    }
+    .star{
+      width: 20px;
+      margin-left: -5px;
+    }
+  }
+  
