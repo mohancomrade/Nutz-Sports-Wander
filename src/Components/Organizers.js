@@ -10,6 +10,7 @@ import event from "../images/Frame 979 (2).svg";
 import customer from "../images/Frame 979 (4).svg";
 
 
+
 function Organizers() {
   return (
     <div className='organizers-header'>

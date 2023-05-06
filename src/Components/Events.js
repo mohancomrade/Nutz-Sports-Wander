@@ -9,11 +9,12 @@ import card3 from "../images/Group 962.svg";
 import card4 from "../images/Group 963.svg";
 import vector1 from "../images/Vector.svg";
 import book from "../images/Vector 15.svg";
-import star from "../images/Vector (1).svg"
+import star from "../images/Vector (1).svg";
+// import sportsimage from "../i"img-fluid"mages/Sports-image.png"
 
 function Events() {
   return (
-    <div className="events-header">
+    <div className="events-header img-fluid">
       <section class="banner">
         <div class="d-md-none sports-burger-menu">
           <a
