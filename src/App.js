@@ -2,6 +2,7 @@
 import './App.css';
 import Header from "./Components/Header";
 import Events from './Components/Events';
+import Symbol from './Components/Symbol';
 import Organizers from './Components/Organizers';
 import Stadium from './Components/Stadium';
 import Reach from './Components/Reach';
@@ -13,7 +14,8 @@ function App() {
      
   <Header/> 
   <Events/>
-  {/* <Organizers/> */}
+  <Symbol/>
+  <Organizers/>
   {/* <Stadium/> */}
  
   {/* <Reach/> */}

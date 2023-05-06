@@ -1,0 +1,287 @@
+.organizers-header{
+
+    background-color: rgb(10,38,71);
+}
+
+.org-text h2{
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+.org-text span {
+
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+.vector-1 {
+
+    background-color: #FFFFFF;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 40px;
+    margin-top: 150px;
+    /* margin-left: 200px !important; */
+    
+}
+
+.vector-1 img  {
+ 
+    width: 50px !important;
+    
+}
+
+
+
+
+/* --------------------------------------------------------  card ---------------------------------------- */
+
+.card-four{
+
+    margin-top: -150px !important;
+    width: 276px !important;
+    height: 220px !important;
+    border-radius: 18px !important;
+    margin-left: 50px !important;
+}
+
+.card-four h3{
+   color: #0a2647;
+    font-size: 35px !important;
+}
+.card-four h4{
+   font-size: 22px !important;
+    color: #0a2647 !important;
+    margin-right: 100px;
+}
+.card-four img {
+    margin-left: 220px !important;
+    width: 112px !important;
+    margin-top: -10px;
+    
+}
+
+.card-three{
+
+    margin-top: -75px !important;
+    width: 276px !important;
+    height: 220px !important;
+    border-radius: 18px !important;
+    margin-left: 40px;
+
+}
+
+.card-three h3{
+    color: #0a2647;
+     font-size: 35px !important;
+     margin-left: 10px;
+ }
+
+ .card-three h4{
+    font-size: 22px !important;
+     color: #0a2647 !important;
+     margin-right: 100px;
+     margin-left: 10px;
+ }
+
+ .card-three img {
+    margin-left: 220px !important;
+    width: 112px !important;
+    margin-top: -10px;
+    
+}
+
+.card-two{
+
+    margin-top: -100px !important;
+    width: 276px !important;
+    height: 220px !important;
+    border-radius: 18px !important;
+
+}
+
+.card-two h3{
+    color: #0a2647;
+     font-size: 35px !important;
+     margin-left:20px;
+ }
+
+ .card-two h4{
+    font-size: 22px !important;
+     color: #0a2647 !important;
+     margin-right: 100px;
+     margin-left: 20px;
+ }
+
+ .card-two img {
+    margin-left: 220px !important;
+    width: 112px !important;
+    margin-top: -10px;
+    
+}
+
+
+.card-one{
+
+    margin-top: -100px !important;
+    width: 276px !important;
+    height: 220px !important;
+    border-radius: 18px !important;
+   
+
+}
+
+.card-one h3{
+    color: #0a2647;
+     font-size: 35px !important;
+     margin-left: 10px;
+ }
+
+ .card-one h4{
+    font-size: 22px !important;
+     color: #0a2647 !important;
+     margin-right: 100px;
+     margin-left: 10px;
+ }
+
+ .card-one img {
+    margin-left: 220px !important;
+    width: 112px !important;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+
+
+
+
+/*    -------------------------------------symbols-------------------------------- */
+
+
+.poly-img1{
+
+    float: left;
+    width: 30px;
+    
+}
+
+.poly-img2{
+
+    float: left ;
+    width: 50px !important;
+} 
+
+.symbol-1 img{
+
+    margin-right: -50px !important;
+    margin-top:-240px !important;
+    margin-left: -15px;
+
+}
+
+.poly-img3{
+
+    float: left;
+    width: 40px !important;
+}
+
+.symbol-2 img{
+
+    margin-top: -240px;
+    margin-left: -15px !important;
+ }
+
+.symbol-3 img{
+   
+    margin-top: -210px;
+    margin-left: -15px;
+
+}  
+
+
+
+/*  -------------------------------------Media quires-------------------------- */
+
+
+@media (max-width: 767px) {
+    .org-text h2 {
+      font-size: 20px;
+      margin-top: 20px;
+      /* text-align: center; */
+    }
+    
+    .org-text span {
+      font-size: 12px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 200;
+    }
+    
+    .vector-1 {
+       
+        width: 40px !important;
+        height: 40px !important;
+        margin-bottom: 100px;
+    }
+
+    .vector-1 img {
+
+        width: 20px !important;
+    }
+    
+    .card-one, .card-two, .card-three, .card-four {
+      width: 120px !important;
+      height: 160px !important;
+      /* height: auto !important; */
+      margin-top: 40px !important;
+      margin-left: 50px !important;
+    }
+    
+    .card-one h3, .card-two h3, .card-three h3, .card-four h3 {
+      margin-left: 20px;
+      text-align: left;
+      font-size: 15px !important;
+      /* margin-top: -120px; */
+    }
+    
+    .card-one h4, .card-two h4, .card-three h4, .card-four h4 {
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: left;
+      font-size: 15px !important;
+      /* margin-top: -10px; */
+    }
+    
+    .card-one img, .card-two img, .card-three img, .card-four img {
+      /* display: block; */
+      /* margin: 20px auto; */
+      margin-left: 90px !important;
+      width: 70px !important;
+
+    }
+    .symbol-1 img{
+
+    
+        margin-top:-30px !important;
+        margin-left: -15px;
+    
+    }
+    .symbol-3 img{
+
+    
+        margin-top:-30px !important;
+        margin-left: -15px;
+    
+    }
+    .symbol-2 img{
+
+    
+        margin-top:-29px !important;
+        margin-left: -15px;
+    
+    }
+  }
+
