@@ -1,0 +1,197 @@
+.stadium-header{
+
+
+    background-color: rgb(10,38,71);
+    color: white;
+    width: 100%;
+    height: 120vh;
+}
+
+.stadium-text{
+
+    font-size: 50px !important;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.s-text span {
+
+    font-size: 30px;
+}
+
+.s-text{
+
+    margin-right: -115px !important;
+    margin-top: 150px !important;
+ 
+}
+
+.s-frame1{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    width: 70px;
+    margin-right: 40px;
+    margin-top: 180px !important;
+
+}
+
+/* ---------------------------------------------------------------number ------------------------------------------- */
+
+.number-one{
+
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #0a2647;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.number-two{
+
+
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #0a2647;
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+
+
+.number-three{
+
+
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #0a2647;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.number-four{
+
+
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #0a2647;
+    font-size: 40px;
+    font-weight: bold;
+ 
+}
+
+.s-row{
+
+    margin-top: 150px !important;
+}
+
+ /* hr.white {
+    border-top: 5px dashed;
+    border-color:15px solid white !important;
+    width: 290%;
+    margin-left: 200px;
+    margin-top: -40px;
+    color: #FFFFFF;
+}  */
+
+.manage,.app,.custom,.support{
+
+    font-size: 21px;
+    font-weight: bold;
+}
+  
+.custom{
+
+    margin-top: 25px !important;
+}
+
+.line img{
+
+    width: 200% !important;
+    margin-top: -90px !important;
+    margin-left: 280px;
+}
+
+/* ------------------------------------------Media quires--------------------------------- */
+
+
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .stadium-text {
+        font-size: 25px !important;
+        margin-left: 20px !important;
+       margin-top: -50px !important;
+    }
+
+    .s-text span {
+        margin-left: 20px;
+        font-size: 15px !important;
+     
+    }
+
+    .s-frame1 {
+        margin-right: 0;
+        margin-top: 95px !important;
+        width: 40px !important;
+    }
+
+    .number-one,
+    .number-two,
+    .number-three,
+    .number-four {
+        font-size: 15px !important;
+    }
+
+    .number-two{
+
+        margin-left: -15px;
+    }
+
+    .s-row {
+        margin-top: 80px;
+    }
+
+    hr.white {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: -30px;
+    }
+
+    .custom {
+        /* margin-top: 1px; */
+        text-align: center;
+        font-size: 10px !important;
+        margin-top: -40px !important;
+    }
+    /* .manage,.app,.custom,.support{
+
+        font-size: 10px !important;
+        margin-bottom: -40px !important;
+    } */
+    .manage {
+        font-size: 10px !important;
+        margin-top: 20px !important;
+        margin-left: -12px;
+    }
+    .app{
+        font-size: 10px !important;
+        margin-top: 20px !important;
+        margin-left: -5px;
+    }
+
+    .support {
+        font-size: 10px !important;
+        margin-top: 20px !important;
+        margin-left: -1px;
+    }
+
+    .line img{
+
+      margin-left:80px ;
+      width: 250px !important;
+      height: 155px;
+    }
+}

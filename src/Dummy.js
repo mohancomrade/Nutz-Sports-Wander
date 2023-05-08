@@ -106,3 +106,46 @@
 //     }
 
 //   }
+
+
+
+
+
+<div className="stdium-footer">
+<div class="row  s-row">
+<div class="col-4">
+<div class="text-center one">
+
+<i class="number-one w-50 p-3">01</i>  
+
+
+<div class="col-lg-8 mx-auto">
+  <div class="mb-4">
+      <h6 class=" text-uppercase text-white"></h6>
+  
+      <hr class="white text-white"/>
+  </div>
+  </div> 
+<p class="text-center  custom">customise size</p>
+</div>   
+</div>
+<div class="col-2">
+<div class="text-center two">
+<i class="number-two w-50 p-3">02</i>
+<p class="text-center mt-5 manage">manage booking</p>
+</div>
+</div>
+<div class="col-3">
+<div class="text-center three">
+<i class="number-three w-50 p-3">03</i>
+<p class="text-center mt-5 app">individual application</p>
+</div>   
+</div>
+<div class="col-2">
+<div class="text-center four">
+<i class="number-four w-50 p-3">04</i>
+<p class="text-center mt-5 support">24*7 customer support</p>
+</div>
+</div>
+</div>
+</div>

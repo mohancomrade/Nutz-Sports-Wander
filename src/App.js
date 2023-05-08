@@ -16,7 +16,7 @@ function App() {
   <Events/>
   <Symbol/>
   <Organizers/>
-  {/* <Stadium/> */}
+  <Stadium/>
  
   {/* <Reach/> */}
   {/* <Footer/> */}
