@@ -23,7 +23,7 @@ function Stadium() {
               </div>
             </div>
           </div>
-          <div className="stdium-footer">
+          <div className="stadium-footer">
           <div class="row  s-row">
   <div class="col-4">
     <div class="text-center one">
