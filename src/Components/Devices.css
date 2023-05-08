@@ -1,0 +1,97 @@
+.devices-header{
+
+    background-color: #FFFFFF;
+    height: 60vh;
+}
+
+.available{
+
+    color:rgb(10,38,71)!important;
+    font-size: 45px !important;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+ .device-footer img{
+
+  width: 100px;
+}
+.apple{
+    width: 19%;
+}
+
+.device-footer{
+
+    margin-top: 60px;
+}
+
+.device-footer h4 {
+
+    margin-top: 25px !important;
+    /* text-align: center; */
+    color:rgb(10,38,71)!important;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.web{
+
+    margin-left: -20px !important;
+}
+
+.anroid-img{
+
+    width: 70px !important;
+    margin-top: 20px;
+}
+
+
+/* -----------------------------------------------Media-quires----------------------------- */
+
+
+@media only screen and (max-width: 768px) {
+    .available{
+        font-size: 18px !important;
+        margin-top: 30px;
+    }
+
+    .apple{
+        width: 30%;
+    }
+
+    .device-footer img{
+        width: 50px;
+    }
+
+    .device-footer{
+        margin-top: 30px;
+    }
+
+    .device-footer h4 {
+        margin-top: 15px !important;
+        font-size: 15px;
+    }
+
+    .web{
+        margin-left: 0px !important;
+    }
+    .anroid-img{
+
+        width: 40px !important;
+        margin-top: 20px;
+    }
+
+    .symbol img{
+        margin-left: 3px !important;
+    }
+
+    .apple img{
+
+      margin-top: -5px !important;
+    }
+
+    .anroid img{
+
+        margin-top: -0px !important;
+    }
+}

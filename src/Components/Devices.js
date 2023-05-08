@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import "./Devices.css";
+import   anroid from "../images/Vector (3).svg";
+import  apple from "../images/mdi_apple.svg";
+import symbol from "../images/material-symbols_cloud.svg";
 
 function Devices() {
   return (
@@ -6,24 +10,26 @@ function Devices() {
 
 
 <section class="">
-        <div class="device">     
+        <div class="device"> 
+        <div className='devices-header'> 
             <div class="container">
-                <h2>available on all your devices</h2>
-                <div class="d-flex align-items-center justify-content-evenly   text-center ">
-                    <div class="">
-                        <i class="icon icon-droid"></i>
+                <h2 className='text-center available'>Available On All Your Devices</h2>
+                <div class="d-flex align-items-center justify-content-evenly   text-center device-footer ">
+                    <div className="anroid">
+                        <img src={anroid} className='anroid-img'/>
                         <h4>Android</h4>
                     </div>
-                    <div class="">
-                        <i class="icon icon-ios"></i>
+                    <div className="apple">
+                        <img src={apple}/>
                         <h4>IOS</h4>
                     </div>
-                    <div class="">      
-                        <i class="icon icon-web"></i>   
-                        <h4>web</h4>
+                    <div className='symbol' >      
+                       <img src={symbol} className='web-img'/>
+                        <h4 className='web'>web</h4>
                     </div> 
                 </div>
             </div>
+        </div>   
         </div>
     </section>
       

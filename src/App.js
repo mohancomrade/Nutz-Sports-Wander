@@ -7,6 +7,7 @@ import Organizers from './Components/Organizers';
 import Stadium from './Components/Stadium';
 import Reach from './Components/Reach';
 import Footer from './Components/Footer';
+import Devices from './Components/Devices';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
   <Symbol/>
   <Organizers/>
   <Stadium/>
- 
+ <Devices/>
   {/* <Reach/> */}
   {/* <Footer/> */}
    
