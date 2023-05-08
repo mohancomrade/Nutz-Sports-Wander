@@ -23,7 +23,7 @@ function Devices() {
                         <img src={apple}/>
                         <h4>IOS</h4>
                     </div>
-                    <div className='symbol' >      
+                    <div className='symbol-img1' >      
                        <img src={symbol} className='web-img'/>
                         <h4 className='web'>web</h4>
                     </div> 

@@ -36,7 +36,7 @@
 
 .web{
 
-    margin-left: -20px !important;
+    margin-left: -0px !important;
 }
 
 .anroid-img{
@@ -70,6 +70,7 @@
     .device-footer h4 {
         margin-top: 15px !important;
         font-size: 15px;
+        margin-top: 30px !important;
     }
 
     .web{
@@ -81,8 +82,9 @@
         margin-top: 20px;
     }
 
-    .symbol img{
-        margin-left: 3px !important;
+    .symbol-img1 img{
+        margin-left: -0px !important;
+        margin-top: -5px !important;
     }
 
     .apple img{
@@ -93,5 +95,11 @@
     .anroid img{
 
         margin-top: -0px !important;
+    }
+
+    .devices-header{
+
+        background-color: #FFFFFF;
+        height: 35vh;
     }
 }
