@@ -1,37 +1,49 @@
-import React from 'react'
+import React from 'react';
+import "./Reach.css";
+import message from "../images/Frame (4).svg";
+import contact from "../images/Frame (5).svg";
+import gmail from "../images/Frame (6).svg"
 
 function Reach() {
   return (
-    <div>
+    <div className='reachus-header'>
 
-       {/* <!-----6.reach us----> */}
-    <section class="reachus">
+<div className='border-box'>
+
+</div>
+<section class="reachus">
         <div class="reach">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-5">
-                        <div class="reach-us-white-bg d-flex align-items-center justify-content-center">
+                        <div class="reach-text">
                             <div class="msg">
-                                <i class="icon icon-msg"></i>
-                            </div>
+                                <img src={message}/>
+                            
                         </div>
-                        <h2>reach us</h2>
-                        <h4>via mobile,email</h4> 
-                        <h4>Feel free to contact us, we are happy to help you for sure.</h4>
+                        <h2>Reach Us</h2>
+                        <h4>Via Mobile,Email</h4> 
+                        <h4>Feel Free to Contact Us, We Are Happy To Help You For Sure.</h4>
                     </div>
-                    <div class="col-lg-7">
-                        <ul class="list-inline reach-us-list">
+                    </div>
+                    <div class="col-lg-7 reach-footer">
+                        <ul class="">
                             <li class="list-inline-item">
-                                <a href="tel:+91 8248933466" class="d-flex align-items-center">
-                                    <i class="icon icon-phone"></i>
+                                <a href="" class="d-flex align-items-center contact-img">
+                                  <i> <img src={contact}/></i> 
                                     <span>+91 96987 39898</span>
+                                   
                                 </a>
+                                
+                                <hr class="hr contact-hr" />
                             </li>
-                            <li class="list-inline-item">
-                                <a href="mailto: admin@sportswander.com" class="d-flex align-items-center">
-                                    <i class="icon icon-mail"></i>
-                                    <span>admin@sportswander.com</span>
+                            <li class="list-inline-item gmail-img">
+                                <a href="" class="d-flex align-items-center">
+                                    <img src={gmail} className='gmail-img1'/>
+                                    <span>Admin@Sportswander.Com</span>
+                                    
                                 </a>
+                                <hr class="hr gmail-hr " />
                             </li>
                         </ul>
                     </div>
@@ -39,6 +51,7 @@ function Reach() {
             </div>
         </div>
     </section>
+  
         
     </div>
   )

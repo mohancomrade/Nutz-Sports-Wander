@@ -1,0 +1,159 @@
+.reachus{
+
+ 
+    background-color: rgb(10,38,71);
+    color: #FFFFFF;
+    height: 38vh;
+   
+ 
+}
+
+.border-box{
+
+    width: 520px !important;
+    height: 400px !important;
+    background-color:  rgb(10,38,71);
+    /* margin-top: -100px !important; */
+    border-radius: 50%;
+    margin-left:-70px !important ;
+    margin-bottom: -260px !important;
+    
+}
+
+.msg img{
+
+    width: 80px !important;
+    margin-left: 40px;
+    margin-top: -80px;
+}
+
+.reach-text h2{
+
+    font-weight: bold;
+    font-size: 40px !important;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.reach-text h4{
+
+    font-size: 30px;
+    font-weight: 100 !important;
+    margin-left: 20px;
+}
+
+.reachus-header a{
+  
+    color: #FFFFFF !important;
+    font-size: 30px;
+    text-decoration:none;
+    font-weight: bold;
+    margin-top: 25px;
+  
+ 
+  }
+
+  .contact-img img{
+
+    width: 40px !important;
+  }
+  
+.gmail-img img{
+
+    width: 30px !important;
+    margin-left: 40px;
+  }
+ 
+  .gmail-img1{
+
+    margin-right: 10px;
+  }
+
+  .reach-footer{
+
+    margin-top: 120px !important;
+  }
+  .contact-hr {
+        border-top: 3px solid #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px !important;
+  }
+  
+  .gmail-hr {
+  
+    border-top: 3px solid #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    margin-top: 5px !important;
+    border-top-width:0cap;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .border-box {
+    width: 200px !important;
+    height: 230px !important;
+    margin-left: -70px !important;
+    margin-bottom: -160px !important;
+    }
+
+    .reachus-header{
+
+        margin-top: -85px !important;
+    }
+    
+    .msg img {
+    width: 40px !important;
+    margin-left: 10px;
+    margin-top: -100px;
+    }
+    
+    .reach-text h2 {
+    font-size: 15px !important;
+    margin-left: 10px;
+    margin-top: -22px;
+    }
+    
+    .reach-text h4 {
+    font-size: 15px !important;
+    margin-left: 10px;
+    }
+    
+    .reachus-header a {
+    font-size: 15px !important;
+    margin-top: -50px !important;
+    margin-left: -30px !important;
+    }
+    
+    .contact-img img {
+    width: 18px !important;
+    }
+    
+    .gmail-img img {
+    width: 18px !important;
+    margin-left: 20px;
+    }
+    
+    .reach-footer {
+    margin-top: 60px !important;
+    }
+    
+    .contact-hr {
+    margin-top: 5px !important;
+    width: 135px !important;
+    margin-left: -30px;
+    }
+    
+    .gmail-hr {
+    margin-left: -11px;
+    margin-top: 5px !important;
+    width: 225px !important;
+    }
+
+    .gmail-img{
+
+        margin-top: 50px !important;
+        margin-left: -20px;
+    }
+    }

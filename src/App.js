@@ -19,7 +19,7 @@ function App() {
   <Organizers/>
   <Stadium/>
  <Devices/>
-  {/* <Reach/> */}
+  <Reach/>
   {/* <Footer/> */}
    
     </div>
