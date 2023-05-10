@@ -28,7 +28,7 @@ function Reach() {
                     </div>
                     <div class="col-lg-7 reach-footer">
                         <ul class="">
-                            <li class="list-inline-item">
+                            <li class="list-inline-item contact-img1">
                                 <a href="" class="d-flex align-items-center contact-img">
                                   <i> <img src={contact}/></i> 
                                     <span>+91 96987 39898</span>

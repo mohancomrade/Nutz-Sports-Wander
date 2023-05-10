@@ -141,7 +141,7 @@
     
     .contact-hr {
     margin-top: 5px !important;
-    width: 138px !important;
+    width: 135px !important;
     margin-left: -30px;
     border-top: 2px solid white;
     }
@@ -157,5 +157,10 @@
 
         margin-top: 50px !important;
         margin-left: -20px;
+      
+    }
+    .contact-img1 {
+
+      margin-top: -15px !important;
     }
     }
