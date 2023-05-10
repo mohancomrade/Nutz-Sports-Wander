@@ -132,7 +132,9 @@
     
     .gmail-img img {
     width: 18px !important;
-    margin-left: 20px;
+    /* margin-left: -20px; */
+   
+  
     }
     
     .reach-footer {
@@ -155,12 +157,13 @@
 
     .gmail-img{
 
-        margin-top: 50px !important;
+        margin-top: 40px !important;
         margin-left: -20px;
+        
       
     }
     .contact-img1 {
 
-      margin-top: -15px !important;
+      margin-top: 15px !important;
     }
     }
