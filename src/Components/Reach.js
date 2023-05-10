@@ -37,8 +37,8 @@ function Reach() {
                                 
                                 <hr class="hr contact-hr" />
                             </li>
-                            <li class="list-inline-item gmail-img">
-                                <a href="" class="d-flex align-items-center">
+                            <li class=" gmail-img">
+                                <a href="" class="align-items-center">
                                     <img src={gmail} className='gmail-img1'/>
                                     <span>Admin@Sportswander.Com</span>
                                     
