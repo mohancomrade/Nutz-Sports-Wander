@@ -20,7 +20,7 @@ function App() {
   <Stadium/>
  <Devices/>
   <Reach/>
-  {/* <Footer/> */}
+  <Footer/>
    
     </div>
   );

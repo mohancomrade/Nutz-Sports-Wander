@@ -45,7 +45,7 @@ function Events() {
               <div class="banner-button-list">
                 <ul class="list-inline d-flex justify-content-md-start justify-content-center">
                   <li class="list-inline-item">
-                    <a href="https://play.google.com/store/apps">
+                    <a>
                       <img
                         src={playstore}
                         class="banner-button playstore mt-5"
@@ -53,7 +53,7 @@ function Events() {
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="" href="https://www.apple.com/in/store">
+                    <a>
                       <img
                         src={vector}
                         class="banner-button playstore1 mt-5"
