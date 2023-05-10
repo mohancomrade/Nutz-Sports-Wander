@@ -12,6 +12,11 @@
     /* position:relative; */
    
 } 
+
+.res-img{
+
+  visibility: hidden;
+}
 .events-header {
   /* min-height: 100vh; */
 }
@@ -142,7 +147,26 @@
 @media screen and (max-width: 767px) {
     .events-header{
       background-color:#204978;
+      /* margin-top: 10px !important; */
     } 
+    .res-img{
+
+      margin-top: -259px !important;
+      margin-right: 10px !important;
+      visibility: visible;
+    }
+    .res-text{
+
+      color: #FFFFFF;
+     margin-right: 130px !important;
+     margin-top: 20px !important;
+    }
+
+    
+    .res-img img {
+
+      margin-left: 10px;
+    }
     .banner-content{
       margin-top: 40px !important;
     }

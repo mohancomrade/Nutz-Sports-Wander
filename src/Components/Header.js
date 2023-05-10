@@ -14,7 +14,7 @@ function Header() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto text-center ">
+            <Nav className="text-center ">
               <Nav.Link href="#home" className="header-font">
                 Book Events
               </Nav.Link>

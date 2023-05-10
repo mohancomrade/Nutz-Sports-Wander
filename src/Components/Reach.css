@@ -61,9 +61,8 @@
 
     width: 30px !important;
     margin-left: 40px;
-  }
- 
-  .gmail-img1{
+  
+  }  .gmail-img1{
 
     margin-right: 10px;
   }
@@ -87,9 +86,19 @@
     margin-left: 35px;
     margin-top: 5px !important;
     border-top-width:0cap;
+    width: 440px;
   }
 
+  .gmail-img{
 
+    margin-top: -70px;
+    margin-left: 290px !important;
+  }
+
+li{
+
+  list-style: none;
+}
   @media screen and (max-width: 768px) {
     .border-box {
     width: 200px !important;
@@ -158,8 +167,8 @@
 
     .gmail-img{
 
-        /* margin-top: 40px !important; */
-        margin-left: -41px;
+        margin-top: -10px !important;
+        margin-left: -40px !important;
         
       
     }

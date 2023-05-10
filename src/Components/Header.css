@@ -1,3 +1,16 @@
+
+.sports-header{
+
+  position: fixed;
+  /* top: 0; */
+  left: -11px;
+  /* right: 10; */
+  z-index: 998;
+  width: 110%;
+
+}
+
+
 .sports-header img{
 
     width: 290px;
@@ -49,7 +62,12 @@
     .sports-header img {
       width: 180px;
       height: 40px;
-    }
+  }
+
+  .sports-header{
+
+    visibility: hidden;
+  }
     
     .header-font {
       margin-right:0;

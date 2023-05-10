@@ -11,20 +11,28 @@ import vector1 from "../images/Vector.svg";
 import book from "../images/Vector 15.svg";
 import star from "../images/Vector (1).svg";
 // import sportsimage from "../i"img-fluid"mages/Sports-image.png"
+import Battery from "../images/Battery (1).svg";
+import tower from "../images/Union.svg";
+import wifi from "../images/Union (1).svg";
+import bluetooth from "../images/Vector (Stroke).svg";
+import clock from "../images/Union (2).svg";
 
 function Events() {
   return (
+
+   
     <div className="events-header img-fluid">
+   
       <section class="banner">
-        <div class="d-md-none sports-burger-menu">
-          <a
-            href="#!"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-          >
-            <i class="icon icon-burger-white"></i>
-          </a>
+        <div class="d-flex justify-content-end res-img">
+             <p className="res-text">7.30 PM</p>
+            <img src={clock} className=""/> 
+            <img src={bluetooth}/> 
+            <img src={wifi}/> 
+            <img src={tower}/> 
+            <img src={Battery} className=""/>
+          
+        
         </div>
         <div class="container-fluid">
           <div class="row">
